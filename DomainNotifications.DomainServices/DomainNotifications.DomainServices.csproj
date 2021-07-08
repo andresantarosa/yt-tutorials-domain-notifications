@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DomainNotifications.Domain.Core\DomainNotifications.Domain.Core.csproj" />
+    <ProjectReference Include="..\DomainNotifications.Domain\DomainNotifications.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
